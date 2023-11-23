@@ -26,7 +26,8 @@
 @media only screen and (max-width: 768px){
     .images-certificates img {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        text-align: center;
+       /*grid-template-columns: 1fr 1fr;*/
+        
+       max-width: 100%;
     }
 }
